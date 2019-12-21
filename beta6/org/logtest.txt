@@ -1,0 +1,18 @@
+Loading model ...
+
+Loading data info ...
+
+data/Set12/01.png PSNR 29.291900
+data/Set12/02.png PSNR 32.204361
+data/Set12/03.png PSNR 30.787180
+data/Set12/04.png PSNR 29.503910
+data/Set12/05.png PSNR 30.261064
+data/Set12/06.png PSNR 28.811181
+data/Set12/07.png PSNR 28.905065
+data/Set12/08.png PSNR 32.022036
+data/Set12/09.png PSNR 27.361680
+data/Set12/10.png PSNR 29.840033
+data/Set12/11.png PSNR 29.780138
+data/Set12/12.png PSNR 29.620126
+
+PSNR on test data 29.865723
