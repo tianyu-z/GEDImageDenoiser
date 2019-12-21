@@ -1,0 +1,10 @@
+/scratch/sga297/pyenv/cvProj/beta11/org/utils.py:10: UserWarning: nn.init.kaiming_normal is now deprecated in favor of nn.init.kaiming_normal_.
+  nn.init.kaiming_normal(m.weight.data, a=0, mode='fan_in')
+/scratch/sga297/pyenv/cvProj/beta11/org/utils.py:16: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  nn.init.constant(m.bias.data, 0.0)
+/scratch/sga297/pyenv/py3.6.3/lib/python3.6/site-packages/torch/nn/_reduction.py:43: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+/scratch/sga297/pyenv/cvProj/beta11/org/utils.py:23: UserWarning: DEPRECATED: skimage.measure.compare_psnr has been moved to skimage.metrics.peak_signal_noise_ratio. It will be removed from skimage.measure in version 0.18.
+  PSNR += compare_psnr(Iclean[i,:,:,:], Img[i,:,:,:], data_range=data_range)
+train.py:122: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  img_val, imgn_val = Variable(img_val.cuda(), volatile=True), Variable(imgn_val.cuda(), volatile=True)
