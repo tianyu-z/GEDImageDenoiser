@@ -39,4 +39,4 @@ class label | beta estimator
 5 | 0.90207981
 larger than 5 | 0.83179394
 
-Step4: After knowing what beta value does your picture have (which folder to use), to get the denoised picture, you can run getDenoisedImage2.ipynb to get it.
+Step2: After knowing what beta value does your picture have (which folder to use), to get the denoised picture, you can run getDenoisedImage2.ipynb to get it.
