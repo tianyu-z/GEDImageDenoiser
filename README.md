@@ -9,7 +9,7 @@ There are in total twelve folders presented in this repository.
 - To train the model, the code files are utils.py, dataset.py, models.py, train.py.
 - The “logs” subfolder contains the trained model.
 - The log.txt file is the log during training.
-- To test the model, the code files are test.py, testGED.py, whose purpose is to test the model based on the test dataset (either 12 or 68) and based on the given noise (either Gaussian noise or noise with fat tail). The log files during testing are also presented in this folder and are named correspondingly.
+- To test the model, the code files are test.py, testT.py testGED.py, whose purpose is to test the model based on the test dataset (either 12 or 68) and based on the given noise (either Gaussian noise or noise with fat tail). The log files during testing are also presented in this folder and are named correspondingly.
 1.4 The orgb10, and orgs10 are two folders for the original model. The files in these two folders have the same structure as the seven folders with name starting with “beta”.
 1.5 Denoised picture for set 12 contained the noisy picture and clean picture of the test dataset 12.
 
