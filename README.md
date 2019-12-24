@@ -18,8 +18,12 @@ There are in total twelve folders presented in this repository.
 If you have a ground-truth picture and you would like to the effect of our model. 
 
 Step1: You may copy and paste your image to [the model you want test]/org/data/Set68 
+
 Step2: Run the test.py under this folder to see the PSNR of the denoised picture based on your ground-truth picture with artifical noise. 
+
 Step3: You may choose the model which gives a denoised picture with the highest PSNR.
+
+Step4: After knowing what model to use (which folder to use), to get the denoised picture, you can run getDenoisedImage.ipynb to get it.
 
 If you don't have a ground-truth picture. You have a picture with noise and you want to denoise it. We cannot calculate the PSNR under this circumstance because the original picture is needed when calculating PSNR. 
 
@@ -35,3 +39,4 @@ class label | beta estimator
 5 | 0.90207981
 larger than 5 | 0.83179394
 
+Step4: After knowing what beta value does your picture have (which folder to use), to get the denoised picture, you can run getDenoisedImage2.ipynb to get it.
