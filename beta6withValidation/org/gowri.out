@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "validation.py", line 136, in <module>
+    main()
+  File "validation.py", line 83, in main
+    out_train = torch.clamp(imgn_train-model(imgn_train), 0., 1.)
+NameError: name 'imgn_train' is not defined
