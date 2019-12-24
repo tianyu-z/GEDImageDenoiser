@@ -17,7 +17,7 @@ There are in total twelve folders presented in this repository.
 
 If you have a ground-truth picture and you would like to the effect of our model. You may copy and paste your image to [the model you want test]/org/Set68 and run the test.py under this folder to see the PSNR of the denoised picture based on your ground-truth picture with artifical noise. You may choose the model which gives a denoised picture with the highest PSNR.
 
-If you don't have a ground-truth picture. You have a picture with noise and you want to denoise it. We cannot calculate the PSNR under this circumstance because the original picture is needed when calculating PSNR. You need to [download](https://drive.google.com/open?id=1JY9jBRAHLjDyIryFfgLIybn9qaQ8LAnG) a VGG beta estimator to estimate the beta and then choose the corrsponding model to denoise your pending pictures. The VGG estimator is a classifier with ten classes with an arrcuracy of 55%. The mapping from the class label to the beta of the model is as follows.
+If you don't have a ground-truth picture. You have a picture with noise and you want to denoise it. We cannot calculate the PSNR under this circumstance because the original picture is needed when calculating PSNR. You need to [download](https://drive.google.com/open?id=1JY9jBRAHLjDyIryFfgLIybn9qaQ8LAnG) a VGG beta estimator to estimate the beta and then choose the corrsponding model to denoise your pending pictures. The VGG estimator is a classifier with ten classes with an top-1 arrcuracy of 55%. (We believe there are some room for improvement). The mapping from the class label to the beta of the model is as follows.
 
 class label | beta estimator
 :-: | :-: 
