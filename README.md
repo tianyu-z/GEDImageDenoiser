@@ -1,5 +1,7 @@
 # Denoising_Residual_Learning
 
+A research project directed by professor Rob Fergus in NYU Courant.
+
 ## Section 1. Structure of this repository.
  
 There are in total twelve folders presented in this repository.
