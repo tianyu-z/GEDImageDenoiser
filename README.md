@@ -1,6 +1,11 @@
 # Denoising_Residual_Learning
 
-A research project directed by professor Rob Fergus in NYU Courant.
+A research project about image denoisers directed by professor Rob Fergus in NYU Courant.
+
+Take a glance of our result.
+
+![GitHub Logo](/result.png)
+Format: ![Alt Text](url)
 
 ## Section 1. Structure of this repository.
  
