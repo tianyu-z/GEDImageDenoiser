@@ -4,8 +4,8 @@ A research project about image denoisers directed by professor Rob Fergus in NYU
 
 Take a glance of our result.
 
-![GitHub Logo](/result.png)
-Format: ![Alt Text](url)
+![GitHub Logo](/Result.png)
+
 
 ## Section 1. Structure of this repository.
  
